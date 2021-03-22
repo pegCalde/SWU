@@ -10,7 +10,12 @@ import UIKit
 class SWCell: UITableViewCell {
     
     
-
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var epNumber: UILabel!
+    @IBOutlet weak var year: UILabel!
+    @IBOutlet weak var imgMovie: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

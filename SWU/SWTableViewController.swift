@@ -54,14 +54,26 @@ class SWTableViewController: UITableViewController {
         // je récupère le path de tableView et je lui passe l'id de la cellule que je veux récupérer
         if let cell = tableView.dequeueReusableCell(withIdentifier: "StarWarsCellType", for: indexPath) as? SWCell {
             let film = movies[indexPath.row]
-            cell.textLabel?.text = film.title
-            cell.detailTextLabel?.text = "\(film.NumberEp)"
-            cell.imageView?.image = film.img
+            cell.title?.text = film.title
+            cell.epNumber?.text = "\(film.NumberEp)"
+            cell.imgMovie.image = film.img
+            cell.year.text = "\(film.year)"
             return cell
         }
         return UITableViewCell()
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Main saga"
+        } else {
+            return "Other sagas"
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
+    }
 
     /*
     // Override to support conditional editing of the table view.
