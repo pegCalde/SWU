@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95317FF22608A3860099AED3 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95317FF12608A3860099AED3 /* FilmViewController.swift */; };
 		95A2DAAD2608821200341FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2DAAC2608821200341FA5 /* AppDelegate.swift */; };
 		95A2DAAF2608821200341FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2DAAE2608821200341FA5 /* SceneDelegate.swift */; };
 		95A2DAB42608821200341FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A2DAB22608821200341FA5 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95317FF12608A3860099AED3 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		95A2DAA92608821200341FA5 /* SWU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A2DAAC2608821200341FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95A2DAAE2608821200341FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				95A2DAC22608836600341FA5 /* SWTableViewController.swift */,
 				95A2DAC52608853C00341FA5 /* SWCell.swift */,
 				95A2DAC826088B4900341FA5 /* SWMovie.swift */,
+				95317FF12608A3860099AED3 /* FilmViewController.swift */,
 			);
 			path = SWU;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				95A2DAAD2608821200341FA5 /* AppDelegate.swift in Sources */,
 				95A2DAC62608853C00341FA5 /* SWCell.swift in Sources */,
 				95A2DAAF2608821200341FA5 /* SceneDelegate.swift in Sources */,
+				95317FF22608A3860099AED3 /* FilmViewController.swift in Sources */,
 				95A2DAC32608836600341FA5 /* SWTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

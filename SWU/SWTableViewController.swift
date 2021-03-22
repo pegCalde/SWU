@@ -74,6 +74,16 @@ class SWTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let selectedFilm = movies[indexPath.row]
+        
+        if let viewController = storyboard?.instantiateViewController(identifier: "Film View Controller") as? FilmViewController {
+            viewController.film = selectedFilm
+            navigationController?.pushViewController(viewController, animated: true)
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.
