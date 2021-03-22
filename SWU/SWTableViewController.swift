@@ -15,11 +15,15 @@ class SWTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 1, year: 2000, real: "nc", img: UIImage(named: "SWep1")!))
-        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 2, year: 2000, real: "nc", img: UIImage(named: "SWep1")!))
-        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 3, year: 2000, real: "nc", img: UIImage(named: "SWep1")!))
-        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 4, year: 2000, real: "nc", img: UIImage(named: "SWep1")!))
-        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 5, year: 2000, real: "nc", img: UIImage(named: "SWep1")!))
+        movies.append(SWMovie(title:"La menace fantôme", NumberEp: 1, year: 1999, real: "George Lucas", img: UIImage(named: "SWep1")!))
+        movies.append(SWMovie(title:"L'attaque des clones'", NumberEp: 2, year: 2002, real: "George Lucas", img: UIImage(named: "SWep2")!))
+        movies.append(SWMovie(title:"La revanche des siths", NumberEp: 3, year: 2005, real: "George Lucas", img: UIImage(named: "SWep3")!))
+        movies.append(SWMovie(title:"Un nouvel espoir", NumberEp: 4, year: 1977, real: "George Lucas", img: UIImage(named: "SWep4")!))
+        movies.append(SWMovie(title:"L'empire contre-attaque", NumberEp: 5, year: 1980, real: "Irvin Kershner", img: UIImage(named: "SWep5")!))
+        movies.append(SWMovie(title:"Le retour du jedi", NumberEp: 6, year: 1983, real: "Richard Marquand", img: UIImage(named: "SWep6")!))
+        movies.append(SWMovie(title:"Le réveil de la force", NumberEp: 7, year: 2015, real: "J.J. Abrams", img: UIImage(named: "SWep7")!))
+        movies.append(SWMovie(title:"Les derniers jedi", NumberEp: 8, year: 2017, real: "Rian Johnson", img: UIImage(named: "SWep8")!))
+        movies.append(SWMovie(title:"L'ascension de Skywalker", NumberEp: 9, year: 2019, real: "J.J. Abrams", img: UIImage(named: "SWep9")!))
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
